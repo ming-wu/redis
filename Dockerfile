@@ -34,4 +34,5 @@ WORKDIR /data
 CMD ["redis-server", "/etc/redis/redis.conf"]
 
 # Expose ports.
-EXPOSE 6379
+# EXPOSE 6379
+EXPOSE 6378
